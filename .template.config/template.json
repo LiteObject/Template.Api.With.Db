@@ -1,0 +1,39 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "LiteObjects",
+    "classifications": [
+        "webapi",
+        "basic",
+        "simple",
+        "api",
+		"database",
+		"db"
+    ],
+    "identity": "TemplateApiDb",
+    "name": "Basic API with DB Template",
+    "shortName": "api-with-db",
+    "description": "Basic API Template with Database",
+    "sourceName": "BasicTemplate.Api",
+    "preferNameDirectory": true,
+    "tags": {
+        "language": "C#",
+        "type": "solution"
+    },
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        "**/[Bb]in/**",
+                        "**/[Oo]bj/**",
+                        "**/.[Gg]it/**",
+                        "**/.[Vv]s/**",
+                        "**/.[Vv]scode/**",
+                        ".template.config/**/*",
+                        "*.md"
+                    ]
+                }
+            ]
+        }
+    ]
+}
