@@ -1,15 +1,15 @@
 <table style="border: 0px none;">
   <tr>
     <td>
-      <img src="./.template.config/icon.png" width="50">
+      <img src="./.template.config/logo.png" width="50">
     </td>
     <td style="vertical-align: middle;">
-      <h1 style="border: 0px none; margin: 0; padding: 0;">Inspirato Basic API Template</h1>
+      <h1 style="border: 0px none; margin: 0; padding: 0;">API with Database Template</h1>
     </td>
   </tr>
 </table>
 
-This is a very basic API template only with one health check endpoint. This solution can be run directly or used to install the template. In order to make this repo more maintainable, no complex template syntaxes are used. All template related configurations are in the `.template.config` folder.
+This is a very basic API (with database) template only with one health check endpoint. This solution can be run directly or used to install the template. In order to make this repo more maintainable, no complex template syntaxes are used. All template related configurations are in the `.template.config` folder.
 
 There are two main objectives of this initiative:
 * Quick creation and deployment of API
