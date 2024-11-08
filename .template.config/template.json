@@ -13,7 +13,7 @@
     "name": "Basic API with DB Template",
     "shortName": "api-with-db",
     "description": "Basic API Template with Database",
-    "sourceName": "BasicTemplate.Api",
+    "sourceName": "TemplateApiDb.Api",
     "preferNameDirectory": true,
     "tags": {
         "language": "C#",

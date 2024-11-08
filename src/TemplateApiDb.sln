@@ -32,7 +32,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateApiDb.Data", "Templ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateApiDb.Domain", "TemplateApiDb.Domain\TemplateApiDb.Domain.csproj", "{ABAC0986-0AD6-4624-A48F-89BF865310E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateApiDb.Library", "TemplateApiDb.Library\TemplateApiDb.Library.csproj", "{CD6C50DA-6018-477A-B1D2-3F6AED8F76DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateApiDb.Library", "TemplateApiDb.Library\TemplateApiDb.Library.csproj", "{CD6C50DA-6018-477A-B1D2-3F6AED8F76DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

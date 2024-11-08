@@ -36,30 +36,30 @@ namespace TemplateApiDb.Data.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>()
-                .HasKey(x => x.Id);
+            //modelBuilder.Entity<User>()
+            //    .HasKey(x => x.Id);
 
-            modelBuilder.Entity<User>()
-                .Property(e => e.Username)
-                .IsRequired()
-                .HasMaxLength(50);
+            //modelBuilder.Entity<User>()
+            //    .Property(e => e.Username)
+            //    .IsRequired()
+            //    .HasMaxLength(50);
 
-            modelBuilder.Entity<User>()
-                .Property(e => e.Email)
-                .IsRequired()
-                .HasMaxLength(100);
+            //modelBuilder.Entity<User>()
+            //    .Property(e => e.Email)
+            //    .IsRequired()
+            //    .HasMaxLength(100);
 
-            modelBuilder.Entity<User>()
-               .Property(e => e.FirstName)
-               .HasMaxLength(50);
+            //modelBuilder.Entity<User>()
+            //   .Property(e => e.FirstName)
+            //   .HasMaxLength(50);
 
-            modelBuilder.Entity<User>()
-               .Property(e => e.LastName)
-               .HasMaxLength(50);
+            //modelBuilder.Entity<User>()
+            //   .Property(e => e.LastName)
+            //   .HasMaxLength(50);
 
-            modelBuilder.Entity<User>()
-               .Property(e => e.PhoneNumber)
-               .HasMaxLength(50);
+            //modelBuilder.Entity<User>()
+            //   .Property(e => e.PhoneNumber)
+            //   .HasMaxLength(50);
 
             _ = modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);

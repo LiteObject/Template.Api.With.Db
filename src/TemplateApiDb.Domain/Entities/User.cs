@@ -1,15 +1,22 @@
-﻿namespace TemplateApiDb.Domain.Entities
+﻿using TemplateApiDb.Domain.ValueObjects;
+
+namespace TemplateApiDb.Domain.Entities
 {
     public class User : BaseEntity
     {
-        public string Username { get; set; }
+        public Name Username { get; set; }
 
-        public string FirstName { get; set; }
+        public Name? FirstName { get; set; }
 
-        public string LastName { get; set; }
+        public Name? LastName { get; set; }
 
-        public string Email { get; set; }
+        public Email Email { get; set; }
 
-        public string PhoneNumber { get; set; }
+        public Phone? PhoneNumber { get; set; }
+
+        public override string ToString()
+        {
+            return $"{this.FirstName} {this.LastName}";
+        }
     }
 }
