@@ -23,8 +23,8 @@ There are two main objectives of this initiative:
 
 ## How can I create a solution using the new basic API template?
 * Run one of the following commands:
-  * `dotnet new insp-basic-api` // from within the desired destinition folder
-  * `dotnet new insp-basic-api -o <SOLUTION_NAME>`
+  * `dotnet new my-basic-api` // from within the desired destinition folder
+  * `dotnet new my-basic-api -o <SOLUTION_NAME>`
 
 ## How can I view all the installed templates?
 * Run the following command: 
@@ -33,11 +33,11 @@ There are two main objectives of this initiative:
 ## How can I search templates?
 * This can be done in different ways. Here are some examples:
   * `dotnet new list --tag inspirato`
-  * `dotnet new list --author inspirato`
-  * `dotnet new list insp`
+  * `dotnet new list --author LiteObjects`
+  * `dotnet new list liteObject`
   * `dotnet new list <SEARCH_KEY_WORD>`
 
-## How can I uninstall this _Inspirato Basic API Template_ template?
+## How can I uninstall this _My Basic API Template_ template?
 * Run one of the following commands:
   * `dotnet new uninstall <PATH_TO_TEMPLATE_CONFIG_FOLDER>` // if you need to explicitly specify the path of the ".template.config" folder
   * `dotnet new uninstall .` // if you are at the solution file level
@@ -48,16 +48,16 @@ There are two main objectives of this initiative:
 ```json
 {
     "$schema": "http://json.schemastore.org/template",
-    "author": "Inspirato Devs",
+    "author": "LiteObjects Devs",
     // Used as search keyword -> $dotnet new list insp
     "classifications": [
-        "insp", "webapi", "basic", "simple"  
+        "liteObject", "webapi", "basic", "simple"  
     ],
     // A unique name for this template.
     "identity": "BasicTemplate.Api",
-    "name": "Inspirato's Basic API Template",
+    "name": "My Basic API Template",
     // shortName will be used with dotnet new command to create 
-    "shortName": "insp-basic-api", 
+    "shortName": "my-basic-api", 
     // sourceName will be replaced everywhere in the solution
     "sourceName": "BasicTemplate.Api",
     "preferNameDirectory": true,
